@@ -127,7 +127,14 @@ Cuando termina la sesión FTP, el cliente FTP envía un comando para “salir”
 
 Si se aplica un filtro `ftp`, puede examinarse la secuencia completa del tráfico FTP en Wireshark. Observe la secuencia de los eventos durante esta sesión FTP. Para recuperar el archivo `Pub`, se utilizó el nombre de usuario `anonymous` (anónimo). Una vez que se completó la transferencia de archivos, el usuario finalizó la sesión FTP:
 
-<img width="1134" height="477" alt="image" src="https://github.com/user-attachments/assets/312da827-75ad-434b-b0f6-0f15935507d3" />
+<img width="1134" height="477" alt="image" src="https://github.com/user-attachments/assets/312da827-75ad-434b-b0f6-0f15935507d3" />  
+
+
+## Conclusiones:
+
+El laboratorio confirma que FTP, aunque funcional y sencillo, es vulnerable y debe evitarse cuando la seguridad de los datos es una prioridad. Para proteger la confidencialidad, es indispensable migrar a protocolos seguros que cifren la comunicación, como SFTP.
+
+Te invito a realizar este laboratorio para comprobar por ti mismo cómo se capturan fácilmente los datos FTP
 
 
 
